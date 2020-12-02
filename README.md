@@ -26,4 +26,21 @@ Links
 [Googles home page](https://google.com)
 
 Image
+
 ![Unsplash image](https://unsplash.com/photos/GkS6GPZC5dk "unsplahx")
+
+
+1. Apples
+    1. qaz
+    2. edcwsx
+2. Orenges
+3. Mango
+
+
+| Name        | Item         | Price  |
+| ----------- |:------------:| ------:|
+| Holly       | Toot  brush  | $1.50  |
+| Jim         | Tootpaste    | $7.50  |
+
+
+
