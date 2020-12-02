@@ -46,7 +46,7 @@ Image
 
 ```
  Alert("qaz")
-  
+
 ```
 
 ## User Guide
@@ -96,4 +96,39 @@ This summarizes how the hospital is generally paid, along with the dates of the 
 
 __MS-DRG Payment Information__
 You see the provider-specific payment rate for each MS-DRG, with the calculation broken down into detail.
+
+_IMAGE GOES HERE_
+
+The Results Summary lists payment information for the MS-DRGs entered in the input field. 
+The Results Details tab will show the breakdown of the payment.
+The Variables Used tab will display the values of the variables used in the payment calculation.
+The Source Information tab will display all the values of the data sources and versions used in the payment calculation.
+
+Payment history for the MS-DRG is available by clicking the yellow button (Get History) on the Results Summary tab. You can view the data as a table or a bar graph.
+
+_IMAGE GOES HERE_
+
+
+## USING THE GROUPER TOOL
+
+__To calculate payment by entering ICD-9 or ICD-10 codes__
+To group and calculate the payment for a single claim utilizing ICD diagnosis and procedure codes, click on the Grouper link. The Grouper data entry panel allows you to enter Provider ID, Patient Information, Patient Stay Information, and ICD Codes. Required fields are marked with a red asterisk.
+
+__Selecting the Grouper Software version__
+The default will be the latest version of the Grouper software from CMS. You do have the option to select an older or newer version of the software. 
+
+_IMAGE GOES HERE_
+
+
+#### Step-by-Step Instructions
+
+- Select the radio button to show or not show provider details and payment details.
+- If showing payment details, enter Provider ID by either
+ - Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+ - Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+ - Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
+- If not showing provider and payment details, then in the calculation results the provider details and the payment details will be suppressed and it will only show grouping and edit logic.
+- Enter Patient & Stay Information.  
+Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar 
+
 
