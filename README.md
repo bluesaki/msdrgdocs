@@ -109,7 +109,7 @@ Payment history for the MS-DRG is available by clicking the yellow button (Get H
 _IMAGE GOES HERE_
 
 
-## USING THE GROUPER TOOL
+### USING THE GROUPER TOOL
 
 __To calculate payment by entering ICD-9 or ICD-10 codes__
 To group and calculate the payment for a single claim utilizing ICD diagnosis and procedure codes, click on the Grouper link. The Grouper data entry panel allows you to enter Provider ID, Patient Information, Patient Stay Information, and ICD Codes. Required fields are marked with a red asterisk.
@@ -124,11 +124,29 @@ _IMAGE GOES HERE_
 
 - Select the radio button to show or not show provider details and payment details.
 - If showing payment details, enter Provider ID by either
- - Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
- - Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
- - Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
+  - Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+  - Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+  - Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
 - If not showing provider and payment details, then in the calculation results the provider details and the payment details will be suppressed and it will only show grouping and edit logic.
 - Enter Patient & Stay Information.  
 Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar 
+
+#### Sample Files available for download for use in the Batch Uploader:
+
+| Name        | Item         |
+| ------------------- |:------------:| 
+| claims-sample.csv   | A file containing sample claims using ICD-9 codes. |
+| claims-sample10.csv | A file containing sample claims using ICD-10 codes.|
+ 
+__On-Screen Results__
+Your results screen will vary depending on whether you have used MS-DRGs or ICD codes, or if you have entered a single claim or multiple, or selected to hide payment information. The results screen keeps your search parameters at the top; scroll down for results.
+
+The Results Summary lists payment information for one or more MS-DRGs depending on the input. It could show upto 200 MS-DRGs if you used the Upload feature with the Batch Grouper.
+
+The Results Details tab will show the breakdown of the payment and display coding information.
+The Variables Used tab will list all the values of the variables used in the payment calculation. Click on the appropriate link to see the details.
+
+The Source Information tab will list all the values of the data sources and versions used in the payment calculation and Grouper. Click on the appropriate link to see the source information details.
+
 
 
