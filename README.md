@@ -133,7 +133,7 @@ Select the date of service utilizing the calendar feature, the admit to discharg
 
 #### Sample Files available for download for use in the Batch Uploader:
 
-| Name        | Item         |
+
 | ------------------- |:------------:| 
 | claims-sample.csv   | A file containing sample claims using ICD-9 codes. |
 | claims-sample10.csv | A file containing sample claims using ICD-10 codes.|
