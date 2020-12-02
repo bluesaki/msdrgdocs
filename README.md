@@ -44,9 +44,12 @@ Image
 
 
 
+```
+ Alert("qaz")
+  
+```
 
-
-# User Guide
+## User Guide
 MediRegs provides an integrated MS-DRG Grouper & Calculator that  simulates MS-DRG grouping and payment under the Inpatient Prospective Payment System (IPPS). The MS-DRG Analyzer upgrade extends the Grouper & Calculator functionality  to allow for batch processing of coding data and deeper payment analysis. These tools are excellent companions to the codebooks, payment books, and the Code Explorer tool.
 
 ## Background Information
@@ -65,7 +68,7 @@ Note: Users who have upgraded to the MS-DRG Analyzer also can group up to 200 cl
 3. If you want to perform more complex payment analyses, including outlier, state, county, per diem calculations or other comparisons, like between providers or discharge dates, click on the Analyzer link. 
 
 
-# USING THE CALCULATOR TOOL
+## USING THE CALCULATOR TOOL
 
 __To calculate payment by entering MS-DRG codes.__
 If you already know the MS-DRG code(s), click on the Calculator link. The Calculator data entry panel allows you to enter Provider ID, Date of Service, and MS-DRG Code(s). Required fields are marked with a red asterisk. You can enter a single or multiple MS-DRG codes (separated by commas or spaces), and calculate the national unadjusted or provider-specific adjusted payment.
