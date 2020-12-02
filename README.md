@@ -18,12 +18,12 @@ Para 3
 
 _italic text_
 
-__ Bold Text __
+__Bold Text__
 
 
 Links
 
-[Googles home page] (https://google.com)
+[Googles home page](https://google.com)
 
 Image
-![Unsplash image] (https://unsplash.com/photos/GkS6GPZC5dk)
+![Unsplash image](https://unsplash.com/photos/GkS6GPZC5dk "unsplahx")
