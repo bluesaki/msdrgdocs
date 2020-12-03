@@ -169,11 +169,66 @@ When exporting the results, select one column or all the columns listed on the s
 
 
 **Common scenarios are detailed below:**<br>
-| ----------------------- |:----------------| 
+
+| -------------------------------- |:---------------- | 
 | To Calculate for a known provider     | Type the provider name/ID in the Provider input box, or click the search button and search by address |
 | To Calculate National Unadjusted    | Enter the provider number “000000” (that is six zeroes) in the Provider input box, or click the National Unadjusted link near the provider box|
 | To Calculate State Average | Enter the two-character initials (KY, MA) in the Provider input box; results will show how many providers are in the state, and that can be expanded to choose any provider from the list.|
 
 
+
+#### Modifying Provider Variables in the Analyzer
+
+After running  a calculation, modify provider variables to run “what if” and other analyses. As you change variables, the calculated payment amounts automatically adjust. You can change any variable that appears with a blue dashed underline. After you’ve changed variables, they are highlighted and you can revert back to the original published value by clicking on the trash-can/delete icon displaying the original value.
+
+_IMAGE GOES HERE_
+
+**Creating Favorites**<br>
+To save a session, scroll to the bottom of the column, and click ADD to Favorites, and provide a name. If variables were modified, that will be indicated. Once a Favorite is created, you will have the option at the top of the screen to Use Favorite and create a new column for analysis.
+
+**Special Payment Analysis Information**<br>
+The MS-DRG Analyzer results are presented in a simple table format. At the top, you will see basic Medicare Expected Payment Information, broken out by portions. Scroll down for additional details.
+
+
+#### Detailed explanation of Analyzer Results Screen
+
+**Provider Details:** Clicking on the blue icon next to the hospital name shows additional provider details.
+
+**Outlier Calculations**<br>
+In the Special Analysis section, the Analyzer automatically provides a calculation to determine if the payment scenario is eligible for an outlier payment based on the entered charges. The outlier payment is broken down by operating and capital portions and the impact on the total Medicare payment is shown.
+
+**Per Diem Analysis** In the Special Analysis section, the Analyzer automatically provides a calculation that demonstrates the per diem based on the Geometric Mean Length of Stay (GMLOS) as published by CMS for the MS-DRG and the actual length of stay (LOS) entered.
+
+**Multiplier Payment Adjustment** In the Special Analysis section, the Analyzer reflects multiplier impact to the Medicare Expected Payment by multiplying the calculated rate by for the entered multiple for calculating contract rates.
+
+
+## COMMON FEATURES
+
+**Setting up  and using the Default feature for Provider ID and MS-DRG**<br>
+If there are Providers and MS-DRG codes utilized often, set them as defaults. Upon log in these defaults will auto-populate the Provider  ID field and the MS-DRG field.
+
+Please note that defaults for Provider ID are available in the Calculator and the Grouper. The default for MS-DRG codes is only available in the Calculator.
+
+_IMAGE GOES HERE_
+
+Select the default by clicking the link above the Provider ID field and the MS-DRG Code field.
+If more than one default is established, then a dropdown is shown. To manage the list of defaults, click the Manage defaults link.
+The same applies to the MS-DRG code as well.
+
+_IMAGE GOES HERE_
+
+In the Manage defaults screen, search for a provider and to add it to the default list. Delete providers from the default list utilizing the trash can symbol. Select one to be the primary default provider; the primary default will be denoted with a green checkmark. (The same applies to the MS-DRG code defaults.) 
+
+_IMAGE GOES HERE_
+
+
+
+### Support
+
+Please let us know if you have any questions, suggestions, or feature requests.
+
+Submit a Ticket at <https://Support.MediRegs.com><br>
+Send an email to **Support@MediRegs.com**<br>
+Call **1-800-808-6800**
 
 [1]: https://google.com
