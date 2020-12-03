@@ -134,6 +134,46 @@ _IMAGE GOES HERE_
 **ICD Coding and Grouping Information**<br>
 If you have provided ICD-CM codes, coding information and Medicare Code Edit messages may appear under **Grouper Details**.
 
+### USING THE ANALYZER
+
+#### ANALYZER: To analyze MS-DRG Payment and perform special calculations
+
+This feature is available for subscribers who have upgraded to the MS-DRG Analyzer. To perform outlier, state, county, or other comparisons, click on the Analyzer link located on the left navigation pane. 
+The Analyzer data entry panel allows you to enter Provider, State or County; an MS-DRG, Discharge date, Length of Stay, COVID-19 adjustment, transfer adjustment, Charges for Outlier calculation, and a multiplier. 
+
+_IMAGE GOES HERE_
+
+Please see the special instructions below for Provider/State/County Calculations.
+
+**COVID-19 Adjustment** will apply to discharges after January 26, 2020.  It will show the payment adjustment attributed to COVID-19. 
+
+**Special Payment Calculations available in the Analyzer**
+
+**Outlier Payment Calculation:** When entering charges in the data entry panel, the Analyzer will check to see if the outlier threshold has been met and display the outlier payment if applicable.
+
+**Payment based on Multiplier:** When entering a multiplier (any number greater than zero) in the data entry panel, the Analyzer will calculate expected payment based on the multiplier. Multiplier defaults to one (1) if not changed.
+
+**State and County Average Calculation:** See more details below.
+
+**Side-by-Side Payment Comparison & Benchmarking:** After running a calculation for a given payment scenario, click the Copy Last Column button, make changes to the scenario in the next column, and click analyze at the bottom of the new column. Alternatively, click the New Column button to add a new column. Select a column to be the BASE for the analysis and compare results; change the base by checking the box on a different column.
+
+**Per Diem Calculation based on Length of Stay:** Enter any Length of Stay you wish. The results will show the per diem calculation based on the published GMLOS and the one you have entered. Length of stay defaults to 1 if not changed.
+
+**Health Reform Impact Analysis:** This is calculated automatically for each column. The results will show the Medicare Expected Payment using the standard calculation, and then show the theoretical payment that would result without performance adjustments.
+
+**Advanced Provider/State/County Search**<br>
+The Analyzer has advanced capabilities to browse lists of facilities by state/county or to calculate state/county averages.
+
+**Export Options**<br>
+When exporting the results, select one column or all the columns listed on the screen. The CSV and PDF exports contain results as shown on screen.  The Pricer provides an export that is aligned to the CMS PC Pricer report.
+
+
+**Common scenarios are detailed below:**<br>
+| ----------------------- |:----------------| 
+| To Calculate for a known provider     | Type the provider name/ID in the Provider input box, or click the search button and search by address |
+| To Calculate National Unadjusted    | Enter the provider number “000000” (that is six zeroes) in the Provider input box, or click the National Unadjusted link near the provider box|
+| To Calculate State Average | Enter the two-character initials (KY, MA) in the Provider input box; results will show how many providers are in the state, and that can be expanded to choose any provider from the list.|
+
 
 
 [1]: https://google.com
