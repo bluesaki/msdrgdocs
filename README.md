@@ -3,15 +3,12 @@ MediRegs provides an integrated MS-DRG Grouper & Calculator that  simulates MS-D
 
 ![image test 1](images/cuckoo.jpg)
 
-![image test 2](/images/cuckoo.jpg)
-
 ### Background Information
 The MS-DRG Grouper utilizes ICD diagnosis and procedure codes to group into Medicare Severity Diagnostic Related Groups (MS-DRG) under the Medicare Inpatient Prospective Payment System (IPPS). The grouper logic is provided by the Centers for Medicare and Medicaid Services (CMS); the interface to that logic allows entry of a claim manually or with a batch upload and results are provided on screen or in downloadable format.
 
 The MS-DRG Calculator & Analyzer performs a provider-specific calculation of the MS-DRG assigned. The calculator logic uses the IPPS Final Rule Table 5 for MS-DRG weights, and the CMS IPPS Final Rules and PC-Pricer for provider variables.
 
 _Note: Depending on the level of access you have subscribed to, up to 5 to 10 years of archives are available._
-
 
 #### Using the Integrated MS-DRG Grouper, Calculator, & Analyzer
 When you first enter the calculator, you will have options based on your subscription level:
