@@ -58,7 +58,6 @@ The Source Information tab will display all the values of the data sources and v
 
 ![Calculator input](images/calc3.png "Calculator inputs")
 
-
 ### USING THE GROUPER TOOL
 
 __To calculate payment by entering ICD-9 or ICD-10 codes__
@@ -67,23 +66,26 @@ To group and calculate the payment for a single claim utilizing ICD diagnosis an
 __Selecting the Grouper Software version__
 The default will be the latest version of the Grouper software from CMS. You do have the option to select an older or newer version of the software. 
 
-_IMAGE GOES HERE_
-
+![Grouper input](images/group1.png)
 
 #### Step-by-Step Instructions
 
-1. Select the radio button to show or not show provider details and payment details.
+1. Select the radio button to show or not show provider details and payment details.<br>
+![Grouper input](images/group2.png)
 1. If showing payment details, enter Provider ID by either
-  1. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
-  1. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
-  1. Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
+   1. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+   1. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+   1. Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
 1. If not showing provider and payment details, then in the calculation results the provider details and the payment details will be suppressed and it will only show grouping and edit logic.
 1. Enter Patient & Stay Information.<br>  
-Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar feature, Age at Discharge is calculated based on date of birth or can be entered, and Gender.
+Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar feature, Age at Discharge is calculated based on date of birth or can be entered, and Gender.<br>
+![Grouper input](images/group3.png)
 1. Admitting Diagnosis and Principal Diagnosis are required. All other codes are optional. Select the Present On Admission indicator next to each code from the drop-down menu. Use the plus sign to add more codes. Enter procedure codes if applicable.
 1. Click Calculate. Results appear on the screen.  Results can be exported to PDF or XLS format by using the Export buttons above the Results.
 1. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
 1. To start over, click the Reset button to clear all entered values and results.
+
+![Grouper input](images/group4.png)
 
 **COVID-19 Adjustment** is automatically calculated in the payment based on the presence of specific ICD-10  codes and the discharge date being after January 26, 2020.  
 The same rule will apply for the batch upload claims too.
