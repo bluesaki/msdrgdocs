@@ -173,7 +173,7 @@ When exporting the results, select one column or all the columns listed on the s
 
 **Common scenarios are detailed below:**<br>
 | Scenario                         | Solution                                |
-| -------------------------------- |:----------------:|
+| ----------------------------------------- | ---------------------------- |
 | To Calculate for a known provider     | Type the provider name/ID in the Provider input box, or click the search button and search by address |
 | To Calculate National Unadjusted    | Enter the provider number “000000” (that is six zeroes) in the Provider input box, or click the National Unadjusted link near the provider box|
 | To Calculate State Average | Enter the two-character initials (KY, MA) in the Provider input box; results will show how many providers are in the state, and that can be expanded to choose any provider from the list.|
