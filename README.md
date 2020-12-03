@@ -1,27 +1,7 @@
-# MS-DRG User Guide
-
-Links
-
-[Googles home page][1]
-
-Image
-
-![Unsplash image](https://picsum.photos/200/300?grayscale "unsplahx")
-
-| Name        | Item         | Price  |
-| ----------- |:------------:| ------:|
-| Holly       | Toot  brush  | $1.50  |
-| Jim         | Tootpaste    | $7.50  |
-
-```
- Alert("qaz")
-
-```
-
-## User Guide
+## MS-DRG User Guide
 MediRegs provides an integrated MS-DRG Grouper & Calculator that  simulates MS-DRG grouping and payment under the Inpatient Prospective Payment System (IPPS). The MS-DRG Analyzer upgrade extends the Grouper & Calculator functionality  to allow for batch processing of coding data and deeper payment analysis. These tools are excellent companions to the codebooks, payment books, and the Code Explorer tool.
 
-## Background Information
+### Background Information
 The MS-DRG Grouper utilizes ICD diagnosis and procedure codes to group into Medicare Severity Diagnostic Related Groups (MS-DRG) under the Medicare Inpatient Prospective Payment System (IPPS). The grouper logic is provided by the Centers for Medicare and Medicaid Services (CMS); the interface to that logic allows entry of a claim manually or with a batch upload and results are provided on screen or in downloadable format.
 
 The MS-DRG Calculator & Analyzer performs a provider-specific calculation of the MS-DRG assigned. The calculator logic uses the IPPS Final Rule Table 5 for MS-DRG weights, and the CMS IPPS Final Rules and PC-Pricer for provider variables.
@@ -29,7 +9,7 @@ The MS-DRG Calculator & Analyzer performs a provider-specific calculation of the
 _Note: Depending on the level of access you have subscribed to, up to 5 to 10 years of archives are available._
 
 
-### Using the Integrated MS-DRG Grouper, Calculator, & Analyzer
+#### Using the Integrated MS-DRG Grouper, Calculator, & Analyzer
 When you first enter the calculator, you will have options based on your subscription level:
 1. If you already know the MS-DRG codes, click on the Calculator link in the left menu for a simplified data entry panel.
 2. If you want to group a single claim for which you have ICD diagnosis and procedure code, click on the Grouper link for a more detailed data entry panel.
@@ -37,7 +17,7 @@ Note: Users who have upgraded to the MS-DRG Analyzer also can group up to 200 cl
 3. If you want to perform more complex payment analyses, including outlier, state, county, per diem calculations or other comparisons, like between providers or discharge dates, click on the Analyzer link. 
 
 
-## USING THE CALCULATOR TOOL
+### USING THE CALCULATOR TOOL
 
 __To calculate payment by entering MS-DRG codes.__
 If you already know the MS-DRG code(s), click on the Calculator link. The Calculator data entry panel allows you to enter Provider ID, Date of Service, and MS-DRG Code(s). Required fields are marked with a red asterisk. You can enter a single or multiple MS-DRG codes (separated by commas or spaces), and calculate the national unadjusted or provider-specific adjusted payment.
@@ -45,18 +25,18 @@ If you already know the MS-DRG code(s), click on the Calculator link. The Calcul
 __Step-by-Step Instructions__
 
 1. Enter the Provider ID by:
-a. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
-b. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
-c. Click on Defaults above the entry box to use the default provider. How to set up default providers is explained later in this document.
+  1. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+  2. b. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+  3. Click on Defaults above the entry box to use the default provider. How to set up default providers is explained later in this document.<br>
 _TIP: Use the Search feature to identify a provider ID by Name, ID, Zip, State, City, County or Address. After entering your search term, select the appropriate provider._
-2. Enter one or more MS-DRG(s) in the MS-DRG Code input box separated by commas or spaces. Click on the Search link to search by MDC or MS-DRG that auto-suggests based on your search. You can select a single code or a list of codes and have the option to either append or replace the selected code to the code input box.
-3. Select the date of service, admit date to the discharge date, utilizing the calendar feature.
-4. The Length of Stay will be automatically calculated, based on the date of service.
-5. Apply COVID-19 Adjustment. This payment adjustment only applies to claims that have a discharge date after January 26, 2020. The default is No.
-6. Apply Transfer Adjustment. Select no, short-term acute, or post-acute transfer. The default is No.
-7. Click Calculate. Results appear on the screen. Results can be exported to PDF or XLS format by using the Export button above the Results.
-8. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
-9. To start over, click the Reset button to clear all entered values and results.
+1. Enter one or more MS-DRG(s) in the MS-DRG Code input box separated by commas or spaces. Click on the Search link to search by MDC or MS-DRG that auto-suggests based on your search. You can select a single code or a list of codes and have the option to either append or replace the selected code to the code input box.
+1. Select the date of service, admit date to the discharge date, utilizing the calendar feature.
+1. The Length of Stay will be automatically calculated, based on the date of service.
+1. Apply COVID-19 Adjustment. This payment adjustment only applies to claims that have a discharge date after January 26, 2020. The default is No.
+1. Apply Transfer Adjustment. Select no, short-term acute, or post-acute transfer. The default is No.
+1. Click Calculate. Results appear on the screen. Results can be exported to PDF or XLS format by using the Export button above the Results.
+1. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
+1. To start over, click the Reset button to clear all entered values and results.
 
 __Output-Results__
 
@@ -73,7 +53,7 @@ The Results Details tab will show the breakdown of the payment.
 The Variables Used tab will display the values of the variables used in the payment calculation.
 The Source Information tab will display all the values of the data sources and versions used in the payment calculation.
 
-Payment history for the MS-DRG is available by clicking the yellow button (Get History) on the Results Summary tab. You can view the data as a table or a bar graph.
+> Payment history for the MS-DRG is available by clicking the yellow button (Get History) on the Results Summary tab. You can view the data as a table or a bar graph.
 
 _IMAGE GOES HERE_
 
@@ -91,14 +71,45 @@ _IMAGE GOES HERE_
 
 #### Step-by-Step Instructions
 
-- Select the radio button to show or not show provider details and payment details.
-- If showing payment details, enter Provider ID by either
-  - Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
-  - Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
-  - Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
-- If not showing provider and payment details, then in the calculation results the provider details and the payment details will be suppressed and it will only show grouping and edit logic.
-- Enter Patient & Stay Information.  
-Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar 
+1. Select the radio button to show or not show provider details and payment details.
+1. If showing payment details, enter Provider ID by either
+  1. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+  1. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+  1. Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document
+1. If not showing provider and payment details, then in the calculation results the provider details and the payment details will be suppressed and it will only show grouping and edit logic.
+1. Enter Patient & Stay Information.<br>  
+Select the date of service utilizing the calendar feature, the admit to discharge date.  Select the payor and discharge status.  Primary payor and discharge status are set to default values which can be changed using the drop-down menu.  Select the Date of Birth utilizing the calendar feature, Age at Discharge is calculated based on date of birth or can be entered, and Gender.
+1. Admitting Diagnosis and Principal Diagnosis are required. All other codes are optional. Select the Present On Admission indicator next to each code from the drop-down menu. Use the plus sign to add more codes. Enter procedure codes if applicable.
+1. Click Calculate. Results appear on the screen.  Results can be exported to PDF or XLS format by using the Export buttons above the Results.
+1. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
+1. To start over, click the Reset button to clear all entered values and results.
+
+**COVID-19 Adjustment** is automatically calculated in the payment based on the presence of specific ICD-10  codes and the discharge date being after January 26, 2020.  
+The same rule will apply for the batch upload claims too.
+
+**Transfer Adjustment** is automatically calculated in the payment based on the selected discharge status. The same rule will apply for the batch upload claims too.
+
+
+### USING THE BATCH GROUPER TOOL
+
+**To group and calculate payment based on a batch of claims**<br>
+To group and calculate the payment for a set of claims for which you have ICD diagnosis and procedure codes, click on the Batch Grouper tab (this is only available when the Analyzer is purchased). The Grouper data entry panel allows you to enter Provider ID and then upload a properly formatted claims data file for batch processing. Instructions, sample claims, and a template file are available to download at the top of your screen (help link).
+
+Before you begin, download the sample claim file (with or without detailed information). Save the file in CSV (XLSX is not supported). The file has detailed instructions and examples about how the data should be formatted. 
+
+#### Step-by-Step Instructions
+
+1. Select the radio button to show or not show provider details and payment details. Not showing means the calculation will be suppressed and just show grouping and edit logic.
+1. If showing payment details, enter Provider ID by either.
+  1. Typing the name of the hospital in the Enter Provider ID box. As you type, notice auto-suggest options that you can click on;
+  1. Click the National Unadjusted link above the entry box, if you want to calculate the national unadjusted rate; or,
+  1. Click on Defaults above the entry box, to use the default provider. How to set up default providers is explained later in this document.
+1. Upload the file from your computer. 
+Claims Data File (upload file) must be a .csv file.
+The file cannot exceed 250kb which is approximately 200 rows.
+1. Click Calculate. Results appear on the screen.  Results can be exported to PDF or XLS format by using the Export buttons above the Results.  When using the batch uploader, there are two XLS options: the first report shows the MS-DRG payment results, the second returns the same file entered with the MS-DRG and error notes columns appended to the right of your data.
+
+_IMAGE GOES HERE_
 
 #### Sample Files available for download for use in the Batch Uploader:
 
@@ -110,15 +121,18 @@ Select the date of service utilizing the calendar feature, the admit to discharg
 __On-Screen Results__
 Your results screen will vary depending on whether you have used MS-DRGs or ICD codes, or if you have entered a single claim or multiple, or selected to hide payment information. The results screen keeps your search parameters at the top; scroll down for results.
 
-The Results Summary lists payment information for one or more MS-DRGs depending on the input. It could show upto 200 MS-DRGs if you used the Upload feature with the Batch Grouper.
+The **Results Summary** lists payment information for one or more MS-DRGs depending on the input. It could show upto 200 MS-DRGs if you used the Upload feature with the Batch Grouper.
 
-The Results Details tab will show the breakdown of the payment and display coding information.
-The Variables Used tab will list all the values of the variables used in the payment calculation. Click on the appropriate link to see the details.
+The **Results Details** tab will show the breakdown of the payment and display coding information.
+
+The **Variables Used** tab will list all the values of the variables used in the payment calculation. Click on the appropriate link to see the details.
 
 The **Source Information** tab will list all the values of the data sources and versions used in the payment calculation and Grouper. Click on the appropriate link to see the source information details.
 
+_IMAGE GOES HERE_
 
-
+**ICD Coding and Grouping Information**<br>
+If you have provided ICD-CM codes, coding information and Medicare Code Edit messages may appear under **Grouper Details**.
 
 
 
