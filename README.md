@@ -221,9 +221,7 @@ In the Manage defaults screen, search for a provider and to add it to the defaul
 
 _IMAGE GOES HERE_
 
-
-
-### Support
+## Support
 
 Please let us know if you have any questions, suggestions, or feature requests.
 
