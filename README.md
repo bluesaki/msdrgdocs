@@ -1,8 +1,6 @@
 ## MS-DRG User Guide
 MediRegs provides an integrated MS-DRG Grouper & Calculator that  simulates MS-DRG grouping and payment under the Inpatient Prospective Payment System (IPPS). The MS-DRG Analyzer upgrade extends the Grouper & Calculator functionality  to allow for batch processing of coding data and deeper payment analysis. These tools are excellent companions to the codebooks, payment books, and the Code Explorer tool.
 
-![image test 1](images/cuckoo.jpg)
-
 ### Background Information
 The MS-DRG Grouper utilizes ICD diagnosis and procedure codes to group into Medicare Severity Diagnostic Related Groups (MS-DRG) under the Medicare Inpatient Prospective Payment System (IPPS). The grouper logic is provided by the Centers for Medicare and Medicaid Services (CMS); the interface to that logic allows entry of a claim manually or with a batch upload and results are provided on screen or in downloadable format.
 
@@ -39,9 +37,9 @@ _TIP: Use the Search feature to identify a provider ID by Name, ID, Zip, State, 
 1. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
 1. To start over, click the Reset button to clear all entered values and results.
 
-![Calculator input](images/calc1.png "Calculator inputs"){:width="100%"}
+![Calculator input](images/calc1.png "Calculator inputs")
 
-__Output-Results__
+#### Output-Results
 
 __Provider Information__
 This summarizes how the hospital is generally paid, along with the dates of the stay.
@@ -49,7 +47,7 @@ This summarizes how the hospital is generally paid, along with the dates of the 
 __MS-DRG Payment Information__
 You see the provider-specific payment rate for each MS-DRG, with the calculation broken down into detail.
 
-_IMAGE GOES HERE_
+![Calculator input](images/calc2.png "Calculator inputs")
 
 The Results Summary lists payment information for the MS-DRGs entered in the input field. 
 The Results Details tab will show the breakdown of the payment.
@@ -58,7 +56,7 @@ The Source Information tab will display all the values of the data sources and v
 
 > Payment history for the MS-DRG is available by clicking the yellow button (Get History) on the Results Summary tab. You can view the data as a table or a bar graph.
 
-_IMAGE GOES HERE_
+![Calculator input](images/calc3.png "Calculator inputs")
 
 
 ### USING THE GROUPER TOOL
