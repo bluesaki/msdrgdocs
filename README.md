@@ -39,6 +39,8 @@ _TIP: Use the Search feature to identify a provider ID by Name, ID, Zip, State, 
 1. Favorite the search parameters, via “Add to Favorites” to re-execute in the future.
 1. To start over, click the Reset button to clear all entered values and results.
 
+![Calculator input](images/calc1.png "Calculator inputs"){:width="100%"}
+
 __Output-Results__
 
 __Provider Information__
