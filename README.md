@@ -1,25 +1,4 @@
-# MSDRGDocumentation
-
-MS-DRG App User Guide
-
-This is a test 123
-Testing nore tuff!!
-
-
-# Header1
-### Header 2
----
-
-Paragrah 1
-
-Paragrah 2
-
-Para 3
-
-_italic text_
-
-__Bold Text__
-
+# MS-DRG User Guide
 
 Links
 
@@ -29,20 +8,10 @@ Image
 
 ![Unsplash image](https://unsplash.com/photos/GkS6GPZC5dk "unsplahx")
 
-
-1. Apples
-    1. qaz
-    2. edcwsx
-2. Orenges
-3. Mango
-
-
 | Name        | Item         | Price  |
 | ----------- |:------------:| ------:|
 | Holly       | Toot  brush  | $1.50  |
 | Jim         | Tootpaste    | $7.50  |
-
-
 
 ```
  Alert("qaz")
@@ -133,10 +102,10 @@ Select the date of service utilizing the calendar feature, the admit to discharg
 
 #### Sample Files available for download for use in the Batch Uploader:
 
-
-| ------------------- |:------------:| 
-| claims-sample.csv   | A file containing sample claims using ICD-9 codes. |
-| claims-sample10.csv | A file containing sample claims using ICD-10 codes.|
+| File Name     |  Description |
+| ----------------------- |:----------------:| 
+| claims-sample.csv       | A file containing sample claims using ICD-9 codes. |
+| claims-sample10.csv     | A file containing sample claims using ICD-10 codes.|
  
 __On-Screen Results__
 Your results screen will vary depending on whether you have used MS-DRGs or ICD codes, or if you have entered a single claim or multiple, or selected to hide payment information. The results screen keeps your search parameters at the top; scroll down for results.
@@ -146,7 +115,7 @@ The Results Summary lists payment information for one or more MS-DRGs depending 
 The Results Details tab will show the breakdown of the payment and display coding information.
 The Variables Used tab will list all the values of the variables used in the payment calculation. Click on the appropriate link to see the details.
 
-The Source Information tab will list all the values of the data sources and versions used in the payment calculation and Grouper. Click on the appropriate link to see the source information details.
+The **Source Information** tab will list all the values of the data sources and versions used in the payment calculation and Grouper. Click on the appropriate link to see the source information details.
 
 
 
