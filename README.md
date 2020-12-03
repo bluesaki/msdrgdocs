@@ -112,7 +112,7 @@ Claims Data File (upload file) must be a .csv file.
 The file cannot exceed 250kb which is approximately 200 rows.
 1. Click Calculate. Results appear on the screen.  Results can be exported to PDF or XLS format by using the Export buttons above the Results.  When using the batch uploader, there are two XLS options: the first report shows the MS-DRG payment results, the second returns the same file entered with the MS-DRG and error notes columns appended to the right of your data.
 
-_IMAGE GOES HERE_
+![Batch Grouper input](images/batch1.png)
 
 #### Sample Files available for download for use in the Batch Uploader:
 
@@ -132,7 +132,7 @@ The **Variables Used** tab will list all the values of the variables used in the
 
 The **Source Information** tab will list all the values of the data sources and versions used in the payment calculation and Grouper. Click on the appropriate link to see the source information details.
 
-_IMAGE GOES HERE_
+![Batch Grouper input](images/batch2.png)
 
 **ICD Coding and Grouping Information**<br>
 If you have provided ICD-CM codes, coding information and Medicare Code Edit messages may appear under **Grouper Details**.
@@ -144,7 +144,7 @@ If you have provided ICD-CM codes, coding information and Medicare Code Edit mes
 This feature is available for subscribers who have upgraded to the MS-DRG Analyzer. To perform outlier, state, county, or other comparisons, click on the Analyzer link located on the left navigation pane. 
 The Analyzer data entry panel allows you to enter Provider, State or County; an MS-DRG, Discharge date, Length of Stay, COVID-19 adjustment, transfer adjustment, Charges for Outlier calculation, and a multiplier. 
 
-_IMAGE GOES HERE_
+![Analyzer input](images/anala1.png)
 
 Please see the special instructions below for Provider/State/County Calculations.
 
@@ -185,7 +185,7 @@ When exporting the results, select one column or all the columns listed on the s
 
 After running  a calculation, modify provider variables to run “what if” and other analyses. As you change variables, the calculated payment amounts automatically adjust. You can change any variable that appears with a blue dashed underline. After you’ve changed variables, they are highlighted and you can revert back to the original published value by clicking on the trash-can/delete icon displaying the original value.
 
-_IMAGE GOES HERE_
+![Analyzer input](images/anala2.png)
 
 **Creating Favorites**<br>
 To save a session, scroll to the bottom of the column, and click ADD to Favorites, and provide a name. If variables were modified, that will be indicated. Once a Favorite is created, you will have the option at the top of the screen to Use Favorite and create a new column for analysis.
@@ -213,17 +213,16 @@ If there are Providers and MS-DRG codes utilized often, set them as defaults. Up
 
 Please note that defaults for Provider ID are available in the Calculator and the Grouper. The default for MS-DRG codes is only available in the Calculator.
 
-_IMAGE GOES HERE_
+![Commany features](images/comm1.png)
 
 Select the default by clicking the link above the Provider ID field and the MS-DRG Code field.
 If more than one default is established, then a dropdown is shown. To manage the list of defaults, click the Manage defaults link.
-The same applies to the MS-DRG code as well.
+*The same applies to the MS-DRG code as well.*
 
-_IMAGE GOES HERE_
 
 In the Manage defaults screen, search for a provider and to add it to the default list. Delete providers from the default list utilizing the trash can symbol. Select one to be the primary default provider; the primary default will be denoted with a green checkmark. (The same applies to the MS-DRG code defaults.) 
 
-_IMAGE GOES HERE_
+![Commany features](images/comm2.png)
 
 ## Support
 
