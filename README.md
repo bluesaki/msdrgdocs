@@ -1,6 +1,3 @@
----
-title: MSDRG User Guide
----
 <style>
 h2 { font-size: 3.75rem; }
 html {
