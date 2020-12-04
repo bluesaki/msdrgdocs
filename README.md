@@ -1,7 +1,5 @@
 ---
 title: MS-DRG User Guide
-date: "2020-12-01"
-creator: Raji Perera
 ---
 
 ## MS-DRG User Guide
