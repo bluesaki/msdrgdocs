@@ -1,1 +1,11 @@
 # remote_theme: chrisrhymes/bulma-clean-theme
+html {
+  padding: 2em;
+	
+	font: normal 18px/1.25 Source Sans Pro, sans-serif;
+	color: #0000ff;
+	hyphens: auto;
+	word-wrap: break-word;
+	
+	background: #fff;
+}
