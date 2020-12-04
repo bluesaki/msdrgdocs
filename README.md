@@ -1,8 +1,4 @@
----
-title: MS-DRG User Guide
-date: "2020-12-01"
-creator: Raji Perera
----
+<link href="style.css" rel="stylesheet"></link>
 
 ## MS-DRG User Guide
 MediRegs provides an integrated MS-DRG Grouper & Calculator that  simulates MS-DRG grouping and payment under the Inpatient Prospective Payment System (IPPS). The MS-DRG Analyzer upgrade extends the Grouper & Calculator functionality  to allow for batch processing of coding data and deeper payment analysis. These tools are excellent companions to the codebooks, payment books, and the Code Explorer tool.
