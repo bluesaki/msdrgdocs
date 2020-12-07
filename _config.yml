@@ -8,11 +8,19 @@
 # --- Required options --- #
 
 # Name of website
-title: My Website
+title: MS-DRG Documentation Website
 
 # Your name to show in the footer
-author: Some Person
+author: Rajiv Perera
 
+# --- List of links in the navigation bar --- #
+
+navbar-links:
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
+  
 # --- Colours / background image --- #
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
